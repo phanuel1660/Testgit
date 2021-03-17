@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up</title>
+	<link rel="stylesheet" type="text/css" href="sign_up.css">
+	<img src="phanu.jpg" style="height:90%;width: 100%">
+</head>
+<body>
+<div class="signup">
+	<img src="ueablogo.jpg" class="user">
+	<h2>Sign Up Here</h2>
+	<form method="POST" action="config1.php">
+		<p>First Name</p>
+		<input type="text" name="fname" placeholder="First Name" required>
+		<p>Last Name</p>
+		<input type="text" name="lname" placeholder="Last Name" required>
+		<p>Email</p>
+		<input type="email" name="email" placeholder="Email" required>
+		<p>Phone</p>
+		<input type="text" name="phone" placeholder="Phone" required>
+		<p>Student Id</p>
+		<input type="text" name="studentid" placeholder="Student Id" required>
+        <p>Password</p>
+        <input onclick="pass()" type="Password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}"  required>
+        <p>Retype-Password</p>
+        <input type="Password" name="cpassword" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}"  required><br><br>
+        <input type="submit" name="" value="Submit">
+	</form>
+	<script>
+		function pass() {
+		alert("Must include atleast one number,one lowercase and uppercase letter and should have a minimum of four characters.");
+	}
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+	/*background-color: blue;*/
+}#header{
+	background-color: #00FFFF;
+	text-decoration: yellow;
+	margin: 0px;
+	height: 270px;
+	border-radius: 0px;
+}.main{
+	background-color: silver;
+	text-decoration: yellow;
+	margin: 0px;
+	border-radius: 0px;
+	padding: 10px;
+	font-size: 20px;
+}#footer{
+	background-color: gray;
+	margin: 0px;
+	border-radius: 0px;
+	padding: 5px;
+	font-size: 20px;
+}

@@ -1,0 +1,67 @@
+body{
+	background-color: blue;
+	padding: 0px;
+	margin: 0px;
+}
+.loginbox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 350px;
+	height: 450px;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	background-color: rgb(0,0,0,0.5);
+}
+.user {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+	overflow: hidden;
+}
+.loginbox h6{
+	color: yellow;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.loginbox p{
+	color: red;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin-left: 20%;
+}
+.loginbox input{
+	outline: none;
+	border: none;
+	border-bottom: 2px solid olive;
+	background-color: transparent;
+	margin-left: 20%;
+	color: white;
+	font-size: 16px;
+}
+button{
+	width: 30%;
+	border-radius: 100%;
+	font-size: 18px;
+	background-color: orange;
+	margin-left: 50%;
+	margin-top: 10%;
+	color: black;
+	font-weight: bold;
+}
+button:hover{
+	background-color: green;
+	cursor: pointer;
+	color: white;
+
+}
+.fotter p{
+	color: white;
+	padding: 40px 0px;
+	font-style: italic;
+}

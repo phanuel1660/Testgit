@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-color: olive">
+	<h3 style="color: orange">simple math operation</h3>
+	<hr>
+	<p style="color: orange">first_number</p>
+	<input id="num1">
+	<p style="color: orange">second_number</p>
+	<input  id="num2">
+	<h3 style="color: orange">Do the following math operation on the numbers above:</h3>
+	<hr>
+	<br><br>
+	<button onclick="sum()">add</button>
+	<button onclick="sub()">subtraction</button><br><br>
+	<button onclick="divide()">division</button>
+	<button onclick="multiply()">multiplication</button>
+	
+<script type="text/javascript">
+	function sum() {
+	var a=document.getElementById('num1').value;
+	var b=document.getElementById('num2').value;
+	a=parseFloat(a);
+	b=parseFloat(b);
+	
+		alert(a+b);
+	}
+	function multiply() {
+	var a=document.getElementById('num1').value;
+	var b=document.getElementById('num2').value;
+	a=parseFloat(a);
+	b=parseFloat(b);
+	
+		alert(a*b);
+	}
+	function sub() {
+	var a=document.getElementById('num1').value;
+	var b=document.getElementById('num2').value;
+	a=parseFloat(a);
+	b=parseFloat(b);
+	
+		alert(a-b);
+	}
+	function divide() {
+	var a=document.getElementById('num1').value;
+	var b=document.getElementById('num2').value;
+	a=parseFloat(a);
+	b=parseFloat(b);
+	
+		alert(a/b);
+	}
+
+</script>
+</body>
+</html>

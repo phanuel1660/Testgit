@@ -1,0 +1,70 @@
+body{
+	background-color:white;
+}
+.main
+{
+	position: absolute;
+}
+.con
+{
+	height: 10%;
+	width: 98.5%;
+	position: fixed;
+	z-index: 1;
+	top: 0%;
+	left: 1%;
+	background-color:maroon;
+}
+.con1
+{position: absolute;
+    height: 71%;
+	width: 17%;
+	position: fixed;
+	z-index: 1;
+	top: 11%;
+	left: 1%;
+	background-color:rgba(0,0,0,.5);
+}
+.con2
+{
+	height: 71%;
+	width: 80.5%;
+	position: fixed;
+	z-index: 1;
+	top: 11%;
+	left: 30%;
+	background-color:#f1f1f1;
+    overflow-x: hidden;
+}
+.con1 a
+{
+	position:relative;
+     text-decoration: none;
+     font-size: 13px;
+     color: #fff;
+     display: block;
+     line-height: 44px;
+     font-weight: bold;
+     font-family: serif;
+
+}
+.con1 a:hover, .offcanvas a:focus
+{
+	color: cyan;
+
+}
+h4
+{
+	text-align: center;
+	color: #fff;
+}
+.con3
+{
+	height: 50%;
+	width: 98.5%;
+	position: fixed;
+	z-index: 1;
+	top: 81%;
+	left: 1%;
+	background-color:white;
+}	

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login form</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<img src="phanu.jpg" style="height:90%;width: 100%">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<div class="loginBox">
+	<img src="phanu.jpg" class="user">
+	<h2>Log In Here</h2>
+	<form method="POST" action="login.php">
+		<p>Email</p>
+		<input type="email" name="email" placeholder="Enter Email" required>
+		<p>Password</p>
+		<input onclick="pass()" type="Password" name="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}" required><br>
+		<input type="submit" name="submit" value="sign in" class="btn-login"><br>
+		<a href="#">Forget password</a><br><br>
+		<p style="color: yellow">Don't have Account,<a href="signup.html">Sign Up Here!</a>
+	</form>
+	<script>
+		function pass() {
+		alert("Must include atleast one number,one lowercase and uppercase letter and should have a minimum of four characters.");
+	}
+	</script>
+</div>
+</body>
+</html>

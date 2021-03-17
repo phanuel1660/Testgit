@@ -1,0 +1,179 @@
+body{
+
+}
+.wrapper
+{
+	
+	background-color: blue;
+	position:absolute;
+	width: 98.5%;
+	text-align: center;
+	height: 600px;
+	border: 4px solid blue;
+}
+.header
+{
+	top: 0px;
+	background-color:brown;
+	box-sizing: border-box;
+	text-align: center;
+	height: 10%;
+	color: white;
+}
+.homebtn a
+{
+	color: white;
+	background-color:lime;
+	float: right;
+	line-height: 44px;
+	width: 100px;
+}
+.sidebar
+{
+	background-color:white;
+	width: 17.85%;
+	height: 70%;
+	border: 2px solid red;
+	overflow-x: hidden;
+
+}
+.main
+{
+    background-color:#f1f1f1;
+	width: 78%;
+	height: 70%;
+	transform: translate(25%,-100%);
+	border: 2px solid red;
+	overflow-y: hidden;
+}
+.homebtn a
+{
+    border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: ocean-blue;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 16px;	
+}
+.homebtn a:hover
+{
+	background: cyan;
+	color: #262626;
+}
+.menu span
+{
+	width: 100%;
+	border: none;
+	outline: none;
+	height: 50px;
+	color: #fff;
+	background:olive;
+	cursor: pointer;
+	font-size: 14px;
+}
+.menu span:hover
+{
+background:red;
+	color: red;	
+}
+.menu
+{
+    transform: translate(0%,280%);
+   float: left;
+   position: relative;
+
+}
+.msg
+{
+	background-color:red;
+	width: 22%;
+	height: 50%;
+	transform: translate(335%,-120%);
+	border: 2px solid blue;
+	overflow: hidden;
+}
+.graph
+{
+	background-color:#f1f1f1;
+	width: 73%;
+	height: 100%;
+	transform: translate(0%,0%);
+	overflow: hidden;
+}
+.msg textarea
+{
+	height: 50%;
+	width: 100%;
+	color: black;
+	font-size: 18px;
+	font-family: serif;
+	padding-bottom: 25%;
+}
+.msg input
+{
+	float: right;
+	cursor: pointer;
+	color: brown;
+	background-color:gold;
+	border-radius: 50%;
+	width: 25%;
+	font-size: 15px;
+	font-weight: bold;
+	border: 2px solid black;
+	outline: none;
+}
+.msg input:hover
+{
+	background-color: green;
+	color: white;
+}
+form p
+{
+	color: red;
+	font-family: serif;
+	font-weight: bold;
+}
+form input[type='number'],
+form input[type='text']
+{
+   border: none;
+	border-bottom: 2px solid gold;
+	outline: none;
+	height: 40px;
+	color: lime;
+	font-size: 16px;
+}
+form input[type="submit"]
+{
+    border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 16px;
+}
+form input[type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+.homebtn a
+{
+    border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: ocean-blue;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 16px;	
+}
+.homebtn a:hover
+{
+	background: cyan;
+	color: #262626;
+}

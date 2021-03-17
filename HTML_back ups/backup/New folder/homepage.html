@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+<div class="header1">
+	<h2>DAILY MILK RECORDS</h2>
+</div>
+
+<div class="header3">
+	 <style>
+            body{
+                font-family: "Lato",sans-serif;
+                transition:background-color.5s;
+            }
+            .sidenav{
+                height: 40%;
+                width:0%;
+                position:fixed;
+                z-index: 1;
+                top: 30.5%;
+                left: 4.85%;
+                background-color:black;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+
+            }
+            .sidenav a{
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #818181;
+                display: block;
+                transition: 03s;
+                line-height: 44px;
+                font-weight: bold;
+                font-family: serif;
+
+               
+            }
+            .sidenav a:hover, .offcanvas a:focus{
+                color: cyan;
+            }
+            .sidenav .closebtn{
+                position:absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+            #main{
+                transition: margin-left .5s;
+                padding: 16px;
+            }
+            @media screen and (max-height: 450px){
+                .sidenav{padding-top: 15px;}
+                .sidenav a{font-size: 18px;}
+            }
+             @media screen and (max-width: 800px){
+                 .sidenav{
+                height: 32%;
+                width:0%;
+                position:fixed;
+                z-index: 1;
+                top: 29.5%;
+                left: 4.85%;
+                background-color:black;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+
+            }
+            }
+        </style>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)"
+            class="closebtn"
+            onclick="closeNav()">&times;</a>
+            <a href="records.php">Records</a>
+            <a href="Modify.php">Modify</a>
+            <a href="#">About</a>
+            <a href="#">Contacts</a> 
+        </div>
+             <span style="color:black; font-size: 24px; cursor:
+             pointer"
+             onclick="openNav()">&#9776;
+             </span>
+             <h4>FILL IN THE FOLLOWING FORM TO INSERT NEW MILK RECORD.</h4>
+        </div>
+        <script>
+            function openNav(){
+                document.getElementById("mySidenav")
+                .style.width="198px";
+                document.getElementById("main")
+                .style.marginLeft="20px"
+                document.body.style.backgroundcolor="rgba(0,0,0,0.4)";
+            }
+                function closeNav(){
+                document.getElementById("mySidenav")
+                .style.width="0";
+                document.getElementById("main")
+                .style.marginLeft="0"
+                document.body.style.backgroundcolor="white";
+            }
+        </script>
+</div>
+<div class="main">
+	<img src="cow.jpg" width="90px" height="90px">
+	<form method="POST" action="milk_records.php">
+	<p>DATE</p>
+	<input type="date" name="date" required="">
+	<br>
+	<p>LITRES</p>
+	<input type="number" name="number" required="">
+	<br>
+	<br>
+	<button name="Submit">Submit</button>
+  	   	<script type="text/javascript"> 
+				sweetAlert("Oops...", "No record inserted!", "error");
+	</script>
+</form>
+</div>
+<div class="footer">
+	<P>POWERED BY ENG. PHANUEL LANGAT.</P>
+	<p>Copyright &copy; 2020</p>
+</div>
+</div>
+</body>
+</html>

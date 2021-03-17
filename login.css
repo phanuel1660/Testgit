@@ -1,0 +1,51 @@
+body{
+	background-color: powderblue;
+	padding: 0;
+	margin: 0;
+
+}
+.loginbox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 350px;
+	height: 450px;
+	background-color: white;
+	transform: translate(-50% ,-50%);
+	box-sizing: border-box;
+	background-color: rgb(0,0,0,0.5);
+
+}
+h6{
+color: yellow;
+font-size: 24px;
+text-align: center;
+}
+.user{
+width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 50%;
+overflow: hidden;
+top:calc(-100px/2);
+left:calc(50% - 50px);
+}
+form{
+	text-align: center;
+	margin-left: 10%;
+}
+p{
+	color: red;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin: 0%;
+	padding: 0%;
+    
+}
+input{
+	outline: none;
+	background-color: transparent;
+	color: white;
+	border: none;
+	border-bottom: 2px solid blue;
+}

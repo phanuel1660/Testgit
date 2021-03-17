@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form class="pure_form">
+	<fieldset>
+		<legend>cornfim password</legend>
+	</fieldset>
+	<input type="password" placeholder="password" id="password" required="">
+	<input type="password" placeholder="cornfirm password" id="cornfim_password" required="">
+	<button type="submit" class="pure-button pure-button-primary">cornfim</button>
+</form>
+<form onsubmit="return checkpassword(this)"></form>
+<script>
+ function checkpassword(form) {
+  	password=form.password.value;
+  	cornfim_password=form.cornfim_password.value;
+  	if (password=='') {
+  		alert("plz enter pass");
+  	else if (cornfim_password=='') {
+  		alert("plz enter cornfim_password");
+  		else if (password!=cornfim_password) {
+  			alert("password dont match");
+  			return false;
+  		}else{
+  			alert("match");
+  			return true;
+  		}
+  	 }
+  	}
+  } 
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style=" align-items: center;">
+	<fieldset>
+    <legend> num1:<input id="no1"></legend>
+   <legend> num2:<input id="no2"></legend>
+   <button onclick="sum()">action</button>
+    </fieldset>
+    <script>
+    	function sum() {
+	var a=document.getElementById('no1').value;
+	var b=document.getElementById('no2').value;
+	a=parseFloat(a);
+	b=parseFloat(b);
+	if (a!=b) {
+		alert("dont match");
+	}else{
+		alert("cool");
+	}
+}
+    </script>
+	
+</body>
+</html>

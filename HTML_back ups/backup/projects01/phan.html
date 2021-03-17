@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	name<input id="name">
+<button onclick="myFunction()">try it</button>
+	<p id="demo"></p>
+<script type="text/javascript">
+	function myFunction() {
+		var person=getElementByid('name');
+		if(person!=null){
+			document.getElementByid("demo").innerHTML="hello"+person+ "how are you today";
+		}
+	}
+</script>
+</body>
+</html>

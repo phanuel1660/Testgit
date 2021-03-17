@@ -1,0 +1,135 @@
+body{
+
+}
+.wrapper
+{
+	
+	background-color: blue;
+	position:absolute;
+	width: 98.5%;
+	text-align: center;
+	height: 700px;
+	border: 4px solid blue;
+}
+.header
+{
+	top: 0px;
+	background-color:brown;
+	box-sizing: border-box;
+	text-align: center;
+	height: 10%;
+	color: white;
+}
+.homebtn a
+{
+	color: white;
+	background-color:lime;
+	float: right;
+	line-height: 44px;
+	width: 100px;
+}
+.sidebar
+{
+	background-color:white;
+	width: 30%;
+	height: 70%;
+	border: 2px solid red;
+	overflow-x: hidden;
+
+}
+.main
+{
+    background-color:#f1f1f1;
+	width: 68%;
+	height: 70%;
+	transform: translate(46%,-100%);
+	overflow-x:hidden;
+	border: 2px solid red;
+}
+form p
+{
+	color: red;
+	font-family: serif;
+	font-weight: bold;
+}
+form input[type='number'],
+form input[type='text']
+{
+   border: none;
+	border-bottom: 2px solid gold;
+	outline: none;
+	color: lime;
+	font-size: 16px;
+	text-align: center;
+}
+form input[type="submit"]
+{
+    border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 16px;
+}
+form input[type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+.homebtn a
+{
+    border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: ocean-blue;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 16px;	
+}
+.homebtn a:hover
+{
+	background: cyan;
+	color: #262626;
+}
+.counter input
+{
+	background-color: red;
+	color: red;
+	font-size: 32px;
+
+}
+.main p
+{
+    color:olive;
+	outline: none;
+	background-color:transparent;
+	font-size: 24px;
+	font-weight:bold;
+	font-family: serif;
+	width: 100%;
+}
+.main input
+{
+	 border: none;
+	outline: none;
+	height: 70px;
+	color:red;
+	background:black;
+	border-radius: 100px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	font-family: serif;
+	font-size: 44px;
+	left: 25%;
+}
+.main h2d
+{
+	float:left;
+	color: red;
+	font-size: 74px;
+	left: 2%;
+}

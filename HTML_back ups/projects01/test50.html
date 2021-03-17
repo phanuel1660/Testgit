@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="test50.css">
+</head>
+<body>
+	<div class="wrappers">
+	<div class="header">
+		<img class="logo" src="ueablogo.jpg" height="50px" width="50px">
+    <h2>UNIVERSITY OF EASTERN AFRICA,BARATON<br>P.O.BOX 2500-30100 ELDORET<br>
+    SIGNOUT FORM</h2>
+ </div>
+ 		<form method="post" action="config.php">	
+ 			<div id="navbar">
+		<style>
+			body{
+				font-family: "Lato",sans-serif;
+				transition:background-color.5s;
+			}
+			.sidenav{
+				height: 54%;
+				width: 0;
+				position: fixed;
+				z-index: 1;
+				top: 24%;
+				left: 0;
+				background-color:black;
+				overflow-x: hidden;
+				transition: 0.5s;
+				padding-top: 60px
+			}
+			.sidenav a{
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #818181;
+                display: block;
+                transition: 03s;
+                line-height: 44px;
+                font-weight: bold;
+                font-family: serif;
+			}
+			.sidenav a:hover, .offcanvas a:focus{
+				color: cyan;
+			}
+			.sidenav .closebtn{
+				position: absolute;
+				top: 0;
+				right: 25px;
+				font-size: 36px;
+				margin-left: 50px;
+			}
+			#main{
+				transition: margin-left .5s;
+				padding: 16px;
+			}
+			@media screen and (max-height: 450px){
+				.sidenav{padding-top: 15px;}
+				.sidenav a{font-size: 18px;}
+			}
+		</style>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)"
+			class="closebtn"
+			onclick="closeNav()">&times;</a>
+			<a href="#">HOME</a>
+			<a href="#">PROFILE</a>
+			<a href="indexp.php">HISTORY</a>
+			<a href="#">SETTINGS</a>
+			<a href="math2.html">RIVISIONS</a>
+			<a href="greetings.html">SIMPLE MATH CALC</a>
+			<a href="login.html">LOGOUT</a>	
+		</div>
+	         <span style="font-size: 24px; cursor:
+	         pointer"
+	         onclick="openNav()">&#9776; open
+	         </span>
+		</div>
+		<script>
+			function openNav(){
+				document.getElementById("mySidenav")
+				.style.width="250px";
+				document.getElementById("main")
+				.style.marginLeft="20px"
+				document.body.style.backgroundcolor="rgba(0,0,0,0.4)";
+			}
+				function closeNav(){
+				document.getElementById("mySidenav")
+				.style.width="0";
+				document.getElementById("main")
+				.style.marginLeft="0"
+				document.body.style.backgroundcolor="white";
+			}
+		</script>
+	</div><div  class="main">
+		    <div class="container1">
+		    	<p>DATE</p>
+			<input type="date" name="date" required>
+			<p>MEANS OF TRAVEL</p>
+			<input type="text" name="meansoftravel" required>
+			<p>DESTINATION</p>
+			<input type="text" name="destination" required>
+		    </div>
+			<div class="container2">
+			<p>PURPOSE OF TRAVEL</p>
+			<input type="text" name="purposeoftravel" required>
+			<p>CHECK</p>
+			<div class="check">
+			<input type="radio" id="check" name="check" value="DAY LEAVE" required/>DAY LEAVE
+			<input type="radio" id="check" name="check" value="OVERNIGHT" required/>OVERNIGHT<br>
+			<input type="radio" id="check" name="check" value="WEEKEND"required/>WEEKEND
+			<input type="radio" id="check" name="check" value="OTHER" required/>OTHER
+            </div>
+            </div>
+            <div class="container3">
+            <p>DEPARTURE DATE</p>
+            <input type="date" name="dateofdeparture" required>
+            <p>RETURN DATE</p>
+            <input type="date" name="dateofreturn" required><br><br><br>
+            <input type="submit" name="submit">
+            </div>
+            </form>
+ </div>
+ <div class="footer">
+ 	<p> copy&copy2020</p>
+ </div>
+ </div>
+</body>
+</html>
